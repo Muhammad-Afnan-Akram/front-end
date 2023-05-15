@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&display=swap');
+
+.speech-buttons-container {
+  display: flex;
+  height: 100vh;
+}
+
+.speech-generation-container,
+.speech-detection-container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.speech-generation-button,
+.speech-detection-button {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  color: #FFFFFF;
+  border: none;
+  cursor: pointer;
+}
+
+.speech-generation-button {
+  background-color: #1C1C4B;
+}
+
+.speech-detection-button {
+  background-color: #040417;
+}
+
+.move-back-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.move-back {
+  color: #FFFFFF;
+  font-size: 24px;
+}
